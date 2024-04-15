@@ -18,5 +18,6 @@ public class Account {
     @Column(name = "ACCOUNT_HOLDER_NAME")
     private String accountHolderName;
 
+    @Column(name = "BALANCE")
     private double balance;
 }
